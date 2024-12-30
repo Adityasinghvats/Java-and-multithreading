@@ -1,0 +1,18 @@
+Multiple processes need to turn simultaneously for that we need
+multiple threads
+In a programme we can have multiple threads running for different tasks.
+Multiple threads can share resources, they dont eat up memory like crazy.
+
+OS has a scheduler which controls execution of instructions on threads.
+
+Race Condition in java
+If a thread becomes mutable
+Doing same instruction like increasing a counter from 2
+threads at same time
+
+Thread states
+new
+runnable
+running
+waiting
+dead
